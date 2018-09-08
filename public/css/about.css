@@ -1,0 +1,52 @@
+
+#about{
+    background: url("../image/about/about_bg.jpg");
+    background-size: 100% 100% ;
+    position: relative;
+    padding-top: 35px;
+    overflow: hidden;
+}
+
+#about>.container>h3{
+    font-size: 28px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #111;
+}
+#about>.container>h1{
+    font-size: 44px;
+    line-height: 1.2;
+    font-weight: normal;
+    margin-bottom: 35px;
+}
+#about>.container>h1>span{
+    color: #00c0ff;
+}
+#about>.container{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+#about>.container>.imgBox{
+    margin-top: 40px;
+    text-align: center;
+}
+#about>.container>.imgBox>img{
+    margin: 0 20px;
+}
+#about>.container>h4{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+
+.side-nav-bar>.list>li:nth-child(2)>a:after{
+    margin-left: -30px;
+}
+.side-nav-bar>.list>li:nth-child(2)>a{
+    color:#fff;
+}
